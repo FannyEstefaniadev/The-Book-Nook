@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Aboreto', cursive;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+
+}
+
+/*body*/
+.body-li{
+    background-image: linear-gradient(to top, #5ee7df 0%, #b490ca 100%);;
+}
+
+/*encabezado*/
+.contenido {
+    background-color: rgb(10, 10, 11);
+    margin: 0;
+   padding: 15px;
+   box-sizing: border-box;
+   
+
+}
+
+.cont-li {
+    color:rgb(229, 227, 243);
+    font-size: 40px; 
+}
+
+
+.color-encabezado,
+p, h1, h2 {
+    color: rgb(16, 16, 16);
+}
+
+
+/*carta libros*/
+
+
+.containerl {
+    text-align:center;
+    display: flex;
+    margin: 80px auto;
+    justify-content: space-evenly;
+}
+
+
+.card {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    padding: 10px 0;
+}
+
+.card:hover {
+    box-shadow: 0px 3px 3px 9px rgba(255, 248, 248, 0.139);
+}
+
+.card:hover img {
+    transform: scale(1.2);
+    
+}
+
+.card img {
+    transition: transform 0.3s ease;
+}
+
+
+.imagenes-li {
+    width: 200px;
+    max-width: 100%;
+    padding: 25px;
+}
+
+.letra {
+font-size: 25px;
+}
+.pedido,
+.mi-boton1,
+.mi-boton2,
+.mi-boton3,
+.mi-boton4,
+.mi-boton5,
+.mi-boton6,
+.mi-boton7,
+.mi-boton8,
+.mi-boton9,
+.mi-boton10,
+.mi-boton11,
+.mi-boton12 {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 30px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+.precio {
+    text-align: center;
+font-size: 25px;
+}
+
